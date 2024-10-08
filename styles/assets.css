@@ -9,3 +9,10 @@ header img{
     height: 250px;
     margin-bottom: 20px;
 }
+
+.dummy_img_the_2nd{
+    width: 100%;
+    background-color: black ;
+    height: 150px;
+    margin-bottom: 10px;
+}

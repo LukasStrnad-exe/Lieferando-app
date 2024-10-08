@@ -6,9 +6,12 @@
     flex-direction: column;
 }
 
-
 .buffer{
     width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .info_to_restaurant{
@@ -25,5 +28,10 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.underline{
+    width: 90%;
 }
 
