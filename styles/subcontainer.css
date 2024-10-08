@@ -33,5 +33,37 @@
 
 .underline{
     width: 90%;
+    margin-bottom: 10px;
 }
 
+.food_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-style: solid ;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: lightgray;
+}
+
+.food_container :hover{
+    background-color: orange;
+}
+
+.food_name{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    width: 90%;
+}
+
+.food_description{
+    width: 90%;
+    margin-bottom: 8px;
+}
+
+.food_price{
+    width: 90%;
+    margin-bottom: 8px;
+}

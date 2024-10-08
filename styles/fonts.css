@@ -7,6 +7,10 @@ h3{
     margin: 0;
 }
 
+h4{
+    margin: 0;
+}
+
 p{
     font-size: 12px;
     margin: 0;
@@ -20,4 +24,9 @@ p{
 
 .menu_headline{
     color: rgb(79, 78, 78);
+}
+
+.food_price{
+    color: orange;
+    font-weight: bolder;
 }
