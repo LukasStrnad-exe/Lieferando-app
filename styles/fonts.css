@@ -23,7 +23,8 @@ p{
 }
 
 .menu_headline{
-    color:#737E85;
+    color: black;
+    font-weight: bold;
 }
 
 .food_price{

@@ -3,20 +3,25 @@ header img{
 }
 
 
-.dummy_img{
+.main_img{
     width: 100%;
     height: 250px;
     margin-bottom: 20px;
     background-size:cover ;
-    background-image: url(../assets/img/pizza_img.jpg) ;
+    background-image: url(../assets/img/main_img.jpg) ;
     background-position: center;
 }
 
-.dummy_img_the_2nd{
+.pizza_img{
     width: 100%;
     height: 150px;
     margin-bottom: 10px;
-    background-image: url(../assets/img/main_image.jpg) ;
+    background-image: url(../assets/img/pizza_img.jpg) ;
     background-size:cover ;
     background-position: center;
+}
+
+.menu img{
+    height: 20px;
+    padding-right: 5px;
 }
