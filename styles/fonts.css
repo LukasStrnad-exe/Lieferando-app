@@ -17,16 +17,16 @@ p{
 }
 
 .stars{
-    color: orange;
+    color: #FE7E00;
     margin-top: 6px;
     margin-bottom: 18px;
 }
 
 .menu_headline{
-    color: rgb(79, 78, 78);
+    color:#737E85;
 }
 
 .food_price{
-    color: orange;
+    color: #FE7E00;
     font-weight: bolder;
 }

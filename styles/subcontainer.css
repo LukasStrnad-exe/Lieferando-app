@@ -7,7 +7,7 @@
 }
 
 .buffer{
-    width: 90%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@
 }
 
 .menu{
-    background-color: grey;
+    background-color: #F7F6F1;
     width: 100%;
     display: flex;
     align-items: center;
@@ -31,8 +31,8 @@
     margin-bottom: 10px;
 }
 
-.underline{
-    width: 90%;
+.subline{
+    width: 95%;
     margin-bottom: 10px;
 }
 
@@ -49,21 +49,21 @@
 }
 
 .food_container :hover{
-    background-color: orange;
+    background-color: #FEE5CB;
 }
 
 .food_name{
     margin-bottom: 8px;
     margin-top: 8px;
-    width: 90%;
+    width: 95%;
 }
 
 .food_description{
-    width: 90%;
+    width: 95%;
     margin-bottom: 8px;
 }
 
 .food_price{
-    width: 90%;
+    width: 95%;
     margin-bottom: 8px;
 }
