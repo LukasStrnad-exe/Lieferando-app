@@ -16,3 +16,26 @@
     align-items: center;
     justify-content: center;
 }
+
+.basket_products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basket_information_per_pizza{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.basket_product{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 20px;
+}

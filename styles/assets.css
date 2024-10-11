@@ -25,3 +25,8 @@ header img{
     height: 20px;
     padding-right: 5px;
 }
+
+.basket_information_per_pizza img{
+    height: 20px;
+    cursor: pointer;
+}
