@@ -43,3 +43,48 @@
     width: 95%;
     margin-top: 20px;
 }
+
+.payment_statemant{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.subtotal{
+    color:#aaabac ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.subtotal h5{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.delivery_cost{
+    color:#aaabac ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.delivery_cost h5{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.amount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.amount h5{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
