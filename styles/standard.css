@@ -1,3 +1,8 @@
 body {
     margin: 0;
+    font-size: 18px;
+}
+
+.buffer{
+    width: 95%;
 }

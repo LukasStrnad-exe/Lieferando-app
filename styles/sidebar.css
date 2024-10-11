@@ -1,3 +1,18 @@
 .sidebar{
     width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.basket_headline{
+    border-style: none none solid none ;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: lightgray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

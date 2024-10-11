@@ -6,14 +6,6 @@
     flex-direction: column;
 }
 
-.buffer{
-    width: 95%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .info_to_restaurant{
     display: flex;
     align-items: flex-start;
