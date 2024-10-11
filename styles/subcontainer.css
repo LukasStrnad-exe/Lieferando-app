@@ -52,6 +52,14 @@
     background-color: #FEE5CB;
 }
 
+.bg_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .food_name{
     margin-bottom: 8px;
     margin-top: 8px;
