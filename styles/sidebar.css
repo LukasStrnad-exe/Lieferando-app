@@ -21,6 +21,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-style: none none solid none ;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: lightgray;
 }
 
 .basket_information_per_pizza{
