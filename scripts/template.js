@@ -28,7 +28,6 @@ function renderBasket(){
 
     for (let i = 0; i < food.length; i++) {
         let pizza = food[i]
-
         if (pizza['amount'] == 0) {
             basketcontainer.innerHTML += ``;
         } else {
@@ -36,14 +35,21 @@ function renderBasket(){
             <div class="basket_product">
                 <h4>${pizza['name']}</h4>
                 <div class="basket_information_per_pizza">
-                    <img src="assets/icons/minus.png" alt="minus">
+                    <img src="assets/icons/minus.png" alt="minus" onclick="subtactAmount(${i})">
                     <p>${pizza['amount']}x</p>
                     <img src="assets/icons/plus.png" alt="plus" onclick="addAmount(${i})">
-                    <p>${pizza['price'].toFixed(2)}€</p>
-                    <img src="assets/icons/mulleimer.png" alt="delete">
+                    ${renderprice(pizza)}
+                    <img src="assets/icons/mulleimer.png" alt="delete" onclick="deleteAmount(${i})">
                 </div>
             </div>
         `;  
         }
     }
+}
+
+function renderprice(pizza) {
+    let amountPrice = pizza.price * pizza.amount;
+    return`
+        <p>${amountPrice.toFixed(2)}€</p>
+    `
 }
