@@ -45,6 +45,7 @@ function renderBasket(){
         `;  
         }
     }
+    renderPaymentStatemant()
 }
 
 function renderprice(pizza) {
@@ -55,13 +56,17 @@ function renderprice(pizza) {
 }
 
 function renderPaymentStatemant(){
-
+    let subtotal = 0;
     let paymentcontainer = document.getElementById('paymentStatemant');
+    for (let i = 0; i < food.length; i++) {
+        let pizza = food[i];
+        subtotal += pizza.amount*pizza.price;
+    }
     paymentcontainer.innerHTML = '';
         paymentcontainer.innerHTML += `
             <div class="subtotal">
                 <h5>Zwischensumme</h5>
-                <h5>144,30€</h5>
+                <h5>${subtotal.toFixed(2)}€</h5>
             </div>
             <div class="delivery_cost">
                 <h5>Lieferkosten</h5>
