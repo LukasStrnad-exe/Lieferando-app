@@ -1,4 +1,4 @@
-[
+let food = [
     {
       "name": "Margherita",
       "price": 7.50,

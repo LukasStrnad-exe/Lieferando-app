@@ -34,10 +34,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border-style: solid ;
-    border-radius: 0px;
-    border-width: 1px;
-    border-color: lightgray;
+
 }
 
 .food_container :hover{
@@ -51,6 +48,11 @@
     justify-content: center;
     flex-direction: column;
     cursor: pointer;
+    margin-bottom: 10px;
+    border-style: solid ;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: lightgray;
 }
 
 .food_name{
