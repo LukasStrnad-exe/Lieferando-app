@@ -1,4 +1,4 @@
-function foodselection(){
+function renderfoodselection(){
 
     let foodcontainer = document.getElementById('foodContainer');
     foodcontainer.innerHTML = '';
@@ -19,5 +19,31 @@ function foodselection(){
         </div>
     `;
     }
+}
 
+function renderbasket(){
+
+    let basketcontainer = document.getElementById('basketProducts');
+    basketcontainer.innerHTML = '';
+
+    for (let i = 0; i < food.length; i++) {
+        let pizza = food[i]
+
+        if (pizza['amount'] == 0) {
+            basketcontainer.innerHTML += ``;
+        } else {
+            basketcontainer.innerHTML += `
+            <div class="basket_product">
+                <h4>${pizza['name']}</h4>
+                <div class="basket_information_per_pizza">
+                    <img src="assets/icons/minus.png" alt="minus">
+                    <p>${pizza['amount']}x</p>
+                    <img src="assets/icons/plus.png" alt="plus">
+                    <p>${pizza['price'].toFixed(2)}€</p>
+                    <img src="assets/icons/mulleimer.png" alt="delete">
+                </div>
+            </div>
+        `;  
+        }
+    }
 }

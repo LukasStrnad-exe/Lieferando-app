@@ -3,7 +3,7 @@ let food = [
       "name": "Margherita",
       "price": 7.50,
       "description": "Klassische Pizza mit Tomatensauce, Mozzarella und frischem Basilikum",
-      "amount": 0
+      "amount": 1
     },
     {
       "name": "Salami",

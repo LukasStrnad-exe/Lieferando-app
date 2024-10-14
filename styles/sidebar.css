@@ -21,6 +21,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction:column ;
     border-style: none none solid none ;
     border-radius: 0px;
     border-width: 1px;
