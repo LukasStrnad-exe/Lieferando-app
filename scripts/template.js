@@ -53,3 +53,23 @@ function renderprice(pizza) {
         <p>${amountPrice.toFixed(2)}€</p>
     `
 }
+
+function renderPaymentStatemant(){
+
+    let paymentcontainer = document.getElementById('paymentStatemant');
+    paymentcontainer.innerHTML = '';
+        paymentcontainer.innerHTML += `
+            <div class="subtotal">
+                <h5>Zwischensumme</h5>
+                <h5>144,30€</h5>
+            </div>
+            <div class="delivery_cost">
+                <h5>Lieferkosten</h5>
+                <h5>5,00€</h5>
+            </div>
+            <div class="amount">
+                <h5>Gesamt</h5>
+                <h5>148,30€</h5>
+            </div>
+    `;
+}
