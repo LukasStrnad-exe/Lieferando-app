@@ -1,4 +1,4 @@
-function renderfoodselection(){
+function renderFoodSelection(){
 
     let foodcontainer = document.getElementById('foodContainer');
     foodcontainer.innerHTML = '';
@@ -6,7 +6,7 @@ function renderfoodselection(){
     for (let i = 0; i < food.length; i++) {
         let pizza = food[i]
         foodcontainer.innerHTML += `
-        <div class="bg_container">
+        <div class="bg_container" onclick="addAmount(${i})">
             <div class="food_name">
                 <h4>${pizza['name']}</h4>
             </div>
@@ -21,7 +21,7 @@ function renderfoodselection(){
     }
 }
 
-function renderbasket(){
+function renderBasket(){
 
     let basketcontainer = document.getElementById('basketProducts');
     basketcontainer.innerHTML = '';
@@ -38,7 +38,7 @@ function renderbasket(){
                 <div class="basket_information_per_pizza">
                     <img src="assets/icons/minus.png" alt="minus">
                     <p>${pizza['amount']}x</p>
-                    <img src="assets/icons/plus.png" alt="plus">
+                    <img src="assets/icons/plus.png" alt="plus" onclick="addAmount(${i})">
                     <p>${pizza['price'].toFixed(2)}€</p>
                     <img src="assets/icons/mulleimer.png" alt="delete">
                 </div>
