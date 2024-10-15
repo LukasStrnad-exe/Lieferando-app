@@ -1,19 +1,19 @@
 function addAmount(i){
     let pizza = food[i]
     pizza.amount ++;
-    renderBasket();
+    renderSidebar();
 }
 
 function subtactAmount(i){
     let pizza = food[i]
     pizza.amount --;
-    renderBasket();
+    renderSidebar();
 }
 
 function deleteAmount(i){
     let pizza = food[i]
     pizza.amount = 0;
-    renderBasket();
+    renderSidebar();
 }
 
 function calculateCosts() {
@@ -31,3 +31,8 @@ function calculateCosts() {
     let totalCost = subtotal+deliveryCost;
     renderPaymentStatemant(subtotal,deliveryCost,totalCost)
 }
+
+function dNone(add, remove) { 
+    document.getElementById(remove).classList.add('d-none');
+    document.getElementById(add).classList.remove('d-none');
+  }

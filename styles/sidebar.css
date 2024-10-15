@@ -92,3 +92,18 @@
     margin-bottom: 0;
     margin-top: 5px;
 }
+
+.basket_nothing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.basket_nothing p{
+    color: grey;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}

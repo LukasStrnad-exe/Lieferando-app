@@ -1,3 +1,10 @@
+function renderSidebar(){
+    renderbasketNothing();
+    renderBasket();
+    calculateCosts();
+    renderdNone();
+}
+
 function renderFoodSelection(){
 
     let foodcontainer = document.getElementById('foodContainer');
@@ -22,7 +29,6 @@ function renderFoodSelection(){
 }
 
 function renderBasket(){
-
     let basketcontainer = document.getElementById('basketProducts');
     basketcontainer.innerHTML = '';
 
@@ -72,4 +78,29 @@ function renderPaymentStatemant(subtotal,deliveryCost,totalCost){
                 <h5>${totalCost.toFixed(2)}€</h5>
             </div>
     `;
+}
+
+function renderbasketNothing() {    
+    let basketnothingcontainer = document.getElementById('basketNothing');
+    basketnothingcontainer.innerHTML = '';
+    basketnothingcontainer.innerHTML += `
+        <img src="assets/icons/warenkorb.png" alt="">
+        <p>Wähle leckere Gerichte aus der Karte und Bestelle dein Menü</p>
+    `;
+}
+
+function renderdNone(){
+    let totalamount = 0;
+    for (let i = 0; i < food.length; i++) {
+        let pizza = food[i];
+        totalamount += pizza.amount
+    }
+    if (totalamount == 0) {
+        dNone('basketNothing','paymentStatemant')
+        dNone('basketNothing','basketProducts')
+
+    } else {
+        dNone('paymentStatemant','basketNothing')
+        dNone('basketProducts','basketNothing')
+    }
 }
