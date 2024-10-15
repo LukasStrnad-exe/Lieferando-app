@@ -70,3 +70,9 @@
     width: 95%;
     margin-bottom: 8px;
 }
+
+@media(max-width:640px) {
+    .sub_container{
+        width: 100%;
+    }
+}
