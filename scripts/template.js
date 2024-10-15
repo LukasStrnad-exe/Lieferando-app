@@ -45,7 +45,7 @@ function renderBasket(){
         `;  
         }
     }
-    renderPaymentStatemant()
+    calculateCosts()
 }
 
 function renderprice(pizza) {
@@ -55,20 +55,8 @@ function renderprice(pizza) {
     `
 }
 
-function renderPaymentStatemant(){
-    let subtotal = 0;
-    deliveryCost = 0;
+function renderPaymentStatemant(subtotal,deliveryCost,totalCost){
     let paymentcontainer = document.getElementById('paymentStatemant');
-    for (let i = 0; i < food.length; i++) {
-        let pizza = food[i];
-        subtotal += pizza.amount*pizza.price;
-    }
-    if (subtotal < 20) {
-        deliveryCost = 5;
-    } else {
-        deliveryCost = 0;
-    }
-    let totalCost = subtotal+deliveryCost;
     paymentcontainer.innerHTML = '';
         paymentcontainer.innerHTML += `
             <div class="subtotal">
