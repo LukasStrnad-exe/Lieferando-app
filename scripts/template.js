@@ -68,7 +68,7 @@ function renderPaymentStatemant(){
     } else {
         deliveryCost = 0;
     }
-    let total = subtotal+deliveryCost;
+    let totalCost = subtotal+deliveryCost;
     paymentcontainer.innerHTML = '';
         paymentcontainer.innerHTML += `
             <div class="subtotal">
@@ -81,7 +81,7 @@ function renderPaymentStatemant(){
             </div>
             <div class="amount">
                 <h5>Gesamt</h5>
-                <h5>${total.toFixed(2)}€</h5>
+                <h5>${totalCost.toFixed(2)}€</h5>
             </div>
     `;
 }
