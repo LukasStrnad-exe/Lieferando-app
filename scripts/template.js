@@ -5,10 +5,52 @@ function renderSidebar(){
     renderdNone();
 }
 
-function renderFoodSelection(){
-    let foodcontainer = document.getElementById('foodContainer');
+function renderPizzaSelection(){
+    let foodcontainer = document.getElementById('pizzaContainer');
+    foodcontainer.innerHTML += '';
+    for (let i = 0; i < 5; i++) {
+        let pizza = food[i]
+        foodcontainer.innerHTML += `
+        <div class="bg_container" onclick="addAmount(${i})">
+            <div class="food_name">
+                <h4>${pizza['name']}</h4>
+            </div>
+            <div class="food_description">
+                <p>${pizza['description']}</p>
+            </div>
+            <div class="food_price">
+                <p>${pizza['price'].toFixed(2)}€</p>
+            </div>
+        </div>
+    `;
+    }
+}
+
+function renderPastaSelection(){
+    let foodcontainer = document.getElementById('pastaContainer');
     foodcontainer.innerHTML = '';
-    for (let i = 0; i < food.length; i++) {
+    for (let i = 5; i < 10; i++) {
+        let pizza = food[i]
+        foodcontainer.innerHTML += `
+        <div class="bg_container" onclick="addAmount(${i})">
+            <div class="food_name">
+                <h4>${pizza['name']}</h4>
+            </div>
+            <div class="food_description">
+                <p>${pizza['description']}</p>
+            </div>
+            <div class="food_price">
+                <p>${pizza['price'].toFixed(2)}€</p>
+            </div>
+        </div>
+    `;
+    }
+}
+
+function renderBurgerSelection(){
+    let foodcontainer = document.getElementById('burgerContainer');
+    foodcontainer.innerHTML = '';
+    for (let i = 10; i < 15; i++) {
         let pizza = food[i]
         foodcontainer.innerHTML += `
         <div class="bg_container" onclick="addAmount(${i})">

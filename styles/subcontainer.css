@@ -37,7 +37,40 @@
 
 }
 
-.food_container :hover{
+.pizza_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.pizza_container :hover{
+    background-color: #FEE5CB;
+}
+
+.pasta_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pasta_container :hover{
+    background-color: #FEE5CB;
+}
+
+.burger_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.burger_container :hover{
     background-color: #FEE5CB;
 }
 
