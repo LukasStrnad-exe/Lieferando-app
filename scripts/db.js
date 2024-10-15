@@ -1,92 +1,92 @@
 let food = [
     {
-      "name": "Margherita",
+      "name": "Pizza Margherita",
       "price": 7.50,
       "description": "Klassische Pizza mit Tomatensauce, Mozzarella und frischem Basilikum",
       "amount": 0
     },
     {
-      "name": "Salami",
+      "name": "Pizza Salami",
       "price": 9.00,
       "description": "Pizza mit Tomatensauce, Mozzarella und würziger Salami",
       "amount": 0
     },
     {
-      "name": "Funghi",
+      "name": "Pizza Funghi",
       "price": 8.50,
       "description": "Pizza mit Tomatensauce, Mozzarella und Champignons",
       "amount": 0
     },
     {
-      "name": "Quattro Formaggi",
+      "name": "Pizza Diavolo",
       "price": 10.00,
-      "description": "Pizza mit vier verschiedenen Käsesorten: Mozzarella, Gorgonzola, Parmesan und Emmentaler",
+      "description": "Scharfe Pizza mit Peperoni, scharfer Salami und Chiliflocken",
       "amount": 0
     },
     {
-      "name": "Hawai",
+      "name": "Pizza Hawai",
       "price": 9.50,
       "description": "Pizza mit Tomatensauce, Mozzarella, Schinken und Ananas",
       "amount": 0
     },
     {
-      "name": "Diavolo",
+      "name": "Tortellini alla Panna",
       "price": 9.80,
-      "description": "Pizza mit Tomatensauce, Mozzarella und scharfer Salami",
+      "description": "Tortellini in cremiger Sahnesauce mit Schinken",
       "amount": 0
     },
     {
-      "name": "Prosciutto",
+      "name": "Spaghetti Bolognese",
       "price": 9.20,
-      "description": "Pizza mit Tomatensauce, Mozzarella und gekochtem Schinken",
+      "description": "Spaghetti mit herzhafter Bolognese-Sauce",
       "amount": 0
     },
     {
-      "name": "Capricciosa",
+      "name": "Lasagne",
       "price": 10.50,
-      "description": "Pizza mit Tomatensauce, Mozzarella, Schinken, Pilzen, Artischocken und Oliven",
+      "description": "Hausgemachte Lasagne mit Bolognese-Sauce und Bechamelsauce",
       "amount": 0
     },
     {
-      "name": "Vegetarisch",
+      "name": "Penne Diavola",
       "price": 9.00,
-      "description": "Pizza mit Tomatensauce, Mozzarella und verschiedenen frischen Gemüsesorten",
+      "description": "Penne mit scharfer Tomatensauce und Peperoni",
       "amount": 0
     },
     {
-      "name": "Thunfisch",
+      "name": "Penne Quattro Formaggi",
       "price": 9.70,
-      "description": "Pizza mit Tomatensauce, Mozzarella, Thunfisch und roten Zwiebeln",
+      "description": "Penne in cremiger Käsesauce mit vier Käsesorten",
       "amount": 0
     },
     {
-      "name": "Calzone",
+      "name": "Hamburger",
       "price": 10.00,
-      "description": "Gefaltete Pizza mit Tomatensauce, Mozzarella, Schinken und Pilzen",
+      "description": "Klassischer Hamburger mit Rindfleisch, Salat, Tomate und Zwiebeln",
       "amount": 0
     },
     {
-      "name": "Prosciutto",
+      "name": "Cheeseburger",
       "price": 11.00,
-      "description": "Pizza mit Tomatensauce, Mozzarella, Rucola und Parmaschinken",
+      "description": "Hamburger mit geschmolzenem Käse, Salat, Tomate und Zwiebeln",
       "amount": 0
     },
     {
-      "name": "Meeresfrüchtepizza",
+      "name": "Mexicoburger",
       "price": 12.00,
-      "description": "Pizza mit Tomatensauce, Mozzarella und verschiedenen Meeresfrüchten",
+      "description": "Hamburger mit würziger Guacamole, Jalapeños und Salsa",
       "amount": 0
     },
     {
-      "name": "Bolognese",
+      "name": "Crispy Chicken Burger",
       "price": 10.20,
-      "description": "Pizza mit Tomatensauce, Mozzarella und Bolognese-Hackfleischsauce",
+      "description": "Burger mit knusprig frittiertem Hähnchenfilet, Salat und Mayo",
       "amount": 0
     },
     {
-      "name": "Speck",
+      "name": "Veggie Burger",
       "price": 10.50,
-      "description": "Pizza mit Tomatensauce, Mozzarella, Speck und Kartoffelscheiben",
+      "description": "Vegetarischer Burger mit einem pflanzlichen Patty, Salat und Tomate",
       "amount": 0
     }
   ]
