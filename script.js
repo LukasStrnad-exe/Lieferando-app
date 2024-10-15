@@ -2,18 +2,21 @@ function addAmount(i){
     let pizza = food[i]
     pizza.amount ++;
     renderSidebar();
+    save();
 }
 
 function subtactAmount(i){
     let pizza = food[i]
     pizza.amount --;
     renderSidebar();
+    save();
 }
 
 function deleteAmount(i){
     let pizza = food[i]
     pizza.amount = 0;
     renderSidebar();
+    save();
 }
 
 function calculateCosts() {
@@ -48,3 +51,16 @@ function dNone(add, remove) {
         basket = false;
     }
 }
+
+function save() {
+    localStorage.setItem("food", JSON.stringify(food));
+  }
+  
+  function load() {
+    let data = localStorage.getItem("food");
+    if (data) {
+      food = JSON.parse(data);
+    } else {
+    
+    }
+  }
