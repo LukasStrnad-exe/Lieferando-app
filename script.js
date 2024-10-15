@@ -36,3 +36,7 @@ function dNone(add, remove) {
     document.getElementById(remove).classList.add('d-none');
     document.getElementById(add).classList.remove('d-none');
   }
+
+function dFlex(add){
+    document.getElementById(add).classList.add('d-flex');
+}
