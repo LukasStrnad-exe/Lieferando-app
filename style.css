@@ -4,6 +4,22 @@ header {
     display: flex;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FE7E00;
+    height: 45.5px;
+    gap: 10px;
+}
+
+footer a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
 .main_container{
     display: flex;
     align-items: flex-start;
@@ -27,5 +43,14 @@ header {
 @media(min-width:640px) {
     .basket_button{
         display: none;
+    }
+}
+
+@media(max-width:640px) {
+    footer{
+        margin-bottom: 45.5px;
+    }
+    footer a{
+        font-size: 8px;
     }
 }
