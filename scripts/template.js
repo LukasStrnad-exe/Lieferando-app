@@ -6,10 +6,8 @@ function renderSidebar(){
 }
 
 function renderFoodSelection(){
-
     let foodcontainer = document.getElementById('foodContainer');
     foodcontainer.innerHTML = '';
-
     for (let i = 0; i < food.length; i++) {
         let pizza = food[i]
         foodcontainer.innerHTML += `
@@ -31,7 +29,6 @@ function renderFoodSelection(){
 function renderBasket(){
     let basketcontainer = document.getElementById('basketProducts');
     basketcontainer.innerHTML = '';
-
     for (let i = 0; i < food.length; i++) {
         let pizza = food[i]
         if (pizza['amount'] == 0) {

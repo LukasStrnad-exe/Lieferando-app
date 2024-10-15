@@ -109,8 +109,10 @@
 }
 
 @media(max-width:640px) {
-    .sidebar{
+    .sidebar_dnone{
         display: none;
+    }
+    .sidebar_{
         width: 100%;
     }
 }

@@ -37,6 +37,14 @@ function dNone(add, remove) {
     document.getElementById(add).classList.remove('d-none');
   }
 
-function dFlex(add){
-    document.getElementById(add).classList.add('d-flex');
+  function toggleBasket(add, remove) {
+    if (basket === false) {
+        document.getElementById(add).classList.remove('sidebar_dnone');
+        document.getElementById(remove).classList.add('d-none');
+        basket = true;
+    } else {
+        document.getElementById(remove).classList.remove('d-none');
+        document.getElementById(add).classList.add('sidebar_dnone');
+        basket = false;
+    }
 }
