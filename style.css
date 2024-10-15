@@ -10,3 +10,22 @@ header {
     justify-content: center;
     flex-direction: row;
 }
+
+.basket_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #007AFF;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+}
+
+@media(min-width:640px) {
+    .basket_button{
+        display: none;
+    }
+}
