@@ -2,11 +2,12 @@
     width: 30%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     flex-grow: 1;
     position: sticky;
     top: 0;
+    height: 85vh;
 }
 
 .basket_headline{
@@ -106,6 +107,33 @@
     margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.order_button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.order_button h3{
+    width: 80%;
+    padding: 20px;
+    background-color: #007AFF;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order_button a{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media(max-width:640px) {

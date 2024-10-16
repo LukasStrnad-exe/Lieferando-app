@@ -1,6 +1,6 @@
 header {
     background-color: #FE7E00;
-    height: 60px;
+    height: 7vh;
     display: flex;
 }
 
@@ -11,6 +11,7 @@ footer {
     background-color: #FE7E00;
     height: 45.5px;
     gap: 10px;
+    width: 100%;
 }
 
 footer a{

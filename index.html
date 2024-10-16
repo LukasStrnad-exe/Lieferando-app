@@ -40,8 +40,8 @@
                     <div class="menu">
                         <img src="assets/icons/rechter-pfeil.png" alt="">
                         <a class="menu_headline" href="#pizzaContainer"><p>Pizza</p></a>
-                        <a class="menu_headline" href="#pizzaContainer"><p>Pasta</p></a>
-                        <a class="menu_headline" href="#pizzaContainer"><p>Burger</p></a>
+                        <a class="menu_headline" href="#pastaContainer"><p>Pasta</p></a>
+                        <a class="menu_headline" href="#burgerContainer"><p>Burger</p></a>
                     </div>
                 </div>
                 <div class="pizza_img">
@@ -70,13 +70,18 @@
                 <div class="basket_headline">
                     <h1>Warenkorb</h1>
                 </div>
-                <div class="basket_nothing d-none" id="basketNothing">
+                <div>
+                    <div class="basket_nothing d-none" id="basketNothing">
+                    </div>
+                    <div class="basket_products" id="basketProducts">
+                    </div>
+                    <div class="payment_statemant" id="paymentStatemant">
+                    </div>
                 </div>
-                <div class="basket_products" id="basketProducts">
-                </div>
-                <div class="payment_statemant" id="paymentStatemant">
-                </div>
-            </div>    
+            </div>   
+            <div class="order_button" id="orderButton">
+                <a href="confirmation.html"><h3>Bestellen</h3></a>
+            </div> 
         </div>
         <div class="basket_button" onclick="toggleBasket('sidebar','subContainer')">
             <h3>Warenkorb</h3>

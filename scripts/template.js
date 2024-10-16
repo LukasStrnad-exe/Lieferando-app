@@ -137,9 +137,11 @@ function renderdNone(){
     if (totalamount == 0) {
         dNone('basketNothing','paymentStatemant')
         dNone('basketNothing','basketProducts')
+        dNone('basketNothing','orderButton')
 
     } else {
         dNone('paymentStatemant','basketNothing')
         dNone('basketProducts','basketNothing')
+        dNone('orderButton','basketNothing')
     }
 }
