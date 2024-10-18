@@ -10,6 +10,20 @@
     background-size:cover ;
     background-image: url(../assets/img/main_img.jpg) ;
     background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.img_circle{
+    width: 80px;
+    height: 80px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 40px;
+    border-radius: 50%;
+    background-image: url(../assets/img/img_circel.jpg);
 }
 
 .pizza_img{
@@ -33,4 +47,12 @@
 
 .basket_nothing img{
     width: 80px;
+}
+
+@media(max-width:640px) {
+    .img_circle{
+        width: 60px;
+        height: 60px;
+        top: 30px;
+    }
 }
