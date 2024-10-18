@@ -11,7 +11,10 @@ function renderPizzaSelection(){
     for (let i = 0; i < 5; i++) {
         let pizza = food[i]
         foodcontainer.innerHTML += `
-        <div class="bg_container" onclick="addAmount(${i})">
+        <div class="bg_container">
+            <div class="add_button" onclick="addAmount(${i})">
+                <img src="assets/icons/plus.png" alt="plus">
+            </div>
             <div class="food_name">
                 <h4>${pizza['name']}</h4>
             </div>
@@ -32,7 +35,10 @@ function renderPastaSelection(){
     for (let i = 5; i < 10; i++) {
         let pizza = food[i]
         foodcontainer.innerHTML += `
-        <div class="bg_container" onclick="addAmount(${i})">
+        <div class="bg_container">
+            <div class="add_button" onclick="addAmount(${i})">
+                <img src="assets/icons/plus.png" alt="plus">
+            </div>
             <div class="food_name">
                 <h4>${pizza['name']}</h4>
             </div>
@@ -53,7 +59,10 @@ function renderBurgerSelection(){
     for (let i = 10; i < 15; i++) {
         let pizza = food[i]
         foodcontainer.innerHTML += `
-        <div class="bg_container" onclick="addAmount(${i})">
+        <div class="bg_container">
+            <div class="add_button" onclick="addAmount(${i})">
+                <img src="assets/icons/plus.png" alt="plus">
+            </div>
             <div class="food_name">
                 <h4>${pizza['name']}</h4>
             </div>

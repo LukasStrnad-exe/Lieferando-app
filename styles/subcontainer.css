@@ -51,7 +51,7 @@
 
 }
 
-.pizza_container :hover{
+.add_button :hover{
     background-color: #FEE5CB;
 }
 
@@ -63,10 +63,6 @@
     flex-direction: column;
 }
 
-.pasta_container :hover{
-    background-color: #FEE5CB;
-}
-
 .burger_container{
     width: 100%;
     display: flex;
@@ -75,22 +71,18 @@
     flex-direction: column;
 }
 
-.burger_container :hover{
-    background-color: #FEE5CB;
-}
-
 .bg_container{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    cursor: pointer;
     margin-bottom: 10px;
     border-style: solid ;
     border-radius: 0px;
     border-width: 1px;
     border-color: lightgray;
+    position: relative;
 }
 
 .food_name{
@@ -107,6 +99,23 @@
 .food_price{
     width: 95%;
     margin-bottom: 8px;
+}
+
+.add_button{
+position: absolute;
+top: 0;
+right: 0;
+border-color: #FE7E00;
+border-style: solid ;
+border-radius: 0px;
+border-width: 1px;
+height: 25px;
+width: 25px;
+cursor: pointer;
+}
+
+.add_button img{
+    height: 25px;
 }
 
 @media(max-width:640px) {
