@@ -19,6 +19,15 @@ function deleteAmount(i){
     save();
 }
 
+function deleteAllAmount(){
+    for (let i = 0; i < food.length; i++) {
+        let meal = food[i];
+        meal.amount = 0;
+        renderSidebar();
+        save();
+    }
+}
+
 function calculateCosts() {
     let subtotal = 0;
     deliveryCost = 0;
