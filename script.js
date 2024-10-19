@@ -47,9 +47,9 @@ function calculateCosts() {
 function dNone(add, remove) { 
     document.getElementById(remove).classList.add('d-none');
     document.getElementById(add).classList.remove('d-none');
-  }
+}
 
-  function toggleBasket(add, remove) {
+function toggleBasket(add, remove) {
     if (basket === false) {
         document.getElementById(add).classList.remove('sidebar_dnone');
         document.getElementById(remove).classList.add('d-none');
@@ -63,13 +63,11 @@ function dNone(add, remove) {
 
 function save() {
     localStorage.setItem("food", JSON.stringify(food));
-  }
-  
-  function load() {
+}
+
+function load() {
     let data = localStorage.getItem("food");
     if (data) {
       food = JSON.parse(data);
-    } else {
-    
     }
 }
