@@ -13,7 +13,7 @@ function subtactAmount(i){
 }
 
 function deleteAmount(i){
-    let pizza = food[i]
+    let pizza = food[i];
     pizza.amount = 0;
     renderSidebar();
     save();

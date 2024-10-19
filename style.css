@@ -37,7 +37,7 @@ footer a{
     color: white;
     padding: 10px;
     position: fixed;
-    bottom: 0;
+    bottom: 45.5px;
     cursor: pointer;
 }
 
@@ -48,9 +48,6 @@ footer a{
 }
 
 @media(max-width:640px) {
-    footer{
-        margin-bottom: 45.5px;
-    }
     footer a{
         font-size: 8px;
     }

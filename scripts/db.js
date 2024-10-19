@@ -24,9 +24,9 @@ let food = [
       "amount": 0
     },
     {
-      "name": "Pizza Hawai",
-      "price": 9.50,
-      "description": "Pizza mit Tomatensauce, Mozzarella, Schinken und Ananas",
+      "name": "Budapest Pizza",
+      "price": 12.00,
+      "description": "Pizza mit Tomatensauce, Hühnerleber, zwiebel, roterzwiebel und Ei",
       "amount": 0
     },
     {
