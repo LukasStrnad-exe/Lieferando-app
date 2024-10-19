@@ -3,6 +3,7 @@ function renderSidebar(){
     renderBasket();
     calculateCosts();
     renderdNone();
+    renderBasketButton();
 }
 
 function renderPizzaSelection(){
@@ -153,4 +154,17 @@ function renderdNone(){
         dNone('basketProducts','basketNothing')
         dNone('orderButton','basketNothing')
     }
+}
+
+function renderBasketButton(){
+    let totalamount = 0;
+    for (let i = 0; i < food.length; i++) {
+        let meal = food[i];
+        totalamount += meal.amount
+    }
+    let basketbutton = document.getElementById('basketbutton');
+    basketbutton.innerHTML = '';
+    basketbutton.innerHTML += `
+        <h3>Warenkorb (${totalamount})</h3>
+    `;
 }
